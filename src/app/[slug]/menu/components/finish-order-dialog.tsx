@@ -131,7 +131,6 @@ const FinishOrderDialog = ({ open, onOpenChange }: FinishOrderDialogProps) => {
                         customInput={Input}
                         {...field}
                       />
-                      {/* <Input  {...field} /> */}
                     </FormControl>
                     <FormMessage />
                   </FormItem>
