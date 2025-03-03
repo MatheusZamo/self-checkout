@@ -15,7 +15,7 @@ const Products = ({ products }: ProductsProps) => {
   const consumptionMethod = searchParams.get("consumptionMethod");
 
   return (
-    <div className="space-y-3 px-5">
+    <div className="space-y-3 px-5 lg:w-[600px]">
       {products.map((product) => (
         <Link
           key={product.id}

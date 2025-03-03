@@ -37,7 +37,6 @@ const RestaurantCategories = ({ restaurant }: RestaurantCategoriesProps) => {
   const handleCategoryClick = (category: MenuCategoriesWithProducts) => {
     setSelectedCategory(category);
   };
-// DIV lg:w-[800px] lg:ml-[300px]
   return (
     <div className="relative z-50 mt-[-1.5rem] rounded-t-3xl bg-white lg:p-10">
       <div className="p-5 lg:">
