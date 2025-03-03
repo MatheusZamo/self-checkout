@@ -18,7 +18,7 @@ const RestaurantHeader = ({ restaurant }: RestaurantHeaderProps) => {
   const handleOrdersClick = () => router.push(`/${slug}/orders`)
 
   return (
-    <div className="relative h-[250px] w-full">
+    <div className="relative h-[250px] w-full lg:p-10 lg:ml-5 lg:mt-[120px] lg:h-[400px]">
       <Button
         variant="secondary"
         size="icon"
@@ -31,7 +31,7 @@ const RestaurantHeader = ({ restaurant }: RestaurantHeaderProps) => {
         src={restaurant.coverImageUrl}
         alt={restaurant.name}
         fill
-        className="object-cover"
+        className="object-cover lg:rounded-xl"
       />
       <Button
         variant="secondary"

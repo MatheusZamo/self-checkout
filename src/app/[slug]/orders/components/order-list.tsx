@@ -50,14 +50,14 @@ const OrderList = ({ orders }: OrderListProps) => {
                 >
                 <ChevronLeftIcon />
             </Button>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 lg:ml-[330px]">
                 <ScrollTextIcon /> 
                 <h2 className="text-lg font-semibold">
                     Meus Pedidos
                 </h2>
             </div>
             {orders.map(order => (
-                <Card key={order.id}>
+                <Card key={order.id} className='lg:w-[50%] lg:ml-[330px]'>
                     <CardContent className='space-y-4 p-5'>
                         <div className={`w-fit rounded-full px-2 py-1 text-xs font-semibold
                             ${order.status === OrderStatus.FINISHED ? 'bg-green-500 text-white' : 'bg-gray-200 text-gray-500'}

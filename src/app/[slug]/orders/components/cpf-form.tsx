@@ -50,7 +50,7 @@ const CpfForm = () => {
 
     return ( 
         <Drawer open>
-  <DrawerContent>
+  <DrawerContent className='lg:w-[50%] lg:ml-[330px]'>
     <DrawerHeader>
       <DrawerTitle>Visualizar Pedidos</DrawerTitle>
       <DrawerDescription>Insira seu CPF abaixo para visualizar seus pedidos.</DrawerDescription>

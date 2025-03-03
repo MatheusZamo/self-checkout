@@ -48,7 +48,7 @@ const ProductDetails = ({product}: ProductDetailsProps) => {
     return ( 
         <>
             <div className="relative z-50 rounded-t-3xl py-5 mt-[-1.5rem] p-5 flex-auto flex flex-col overflow-hidden">
-                <div className='flex-auto overflow-hidden'>
+                <div className='flex-auto overflow-hidden lg:w-[800px] lg:ml-[280px]'>
                 <div className="flex items-center gap-1.5">
                     <Image src={product.restaurant.avatarImageUrl} 
                     alt={product.restaurant.name} 
@@ -111,7 +111,7 @@ const ProductDetails = ({product}: ProductDetailsProps) => {
                 </ScrollArea>
                 </div>
                 <Button 
-                className='mt-6 w-full rounded-full'
+                className='mt-6 w-full rounded-full lg:w-[300px] lg:ml-[500px]'
                 onClick={handleAddToCart}
                 >
                     Adicionar à sacola

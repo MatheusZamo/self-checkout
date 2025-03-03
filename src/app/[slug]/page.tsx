@@ -27,9 +27,9 @@ const RestaurantPage = async ({ params }: RestaurantPageProps) => {
         />
         <h2 className="font-semibold">{restaurant.name}</h2>
       </div>
-      <div className="space-y-2 pt-24 text-center">
+      <div className="space-y-2 pt-24 text-center lg:pt-4">
         <h3 className="text-2xl font-semibold">Seja bem-vindo!</h3>
-        <p className="opacity-55">
+        <p className="opacity-55 lg:w-[400px]">
           Escolha como prefere aproveitar sua refeição. Estamos aqui para
           oferecer praticidade e sabor em cada detalhe!
         </p>

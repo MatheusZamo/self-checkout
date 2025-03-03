@@ -95,7 +95,7 @@ const FinishOrderDialog = ({ open, onOpenChange }: FinishOrderDialogProps) => {
   return (
     <Drawer open={open} onOpenChange={onOpenChange}>
       <DrawerTrigger asChild></DrawerTrigger>
-      <DrawerContent>
+      <DrawerContent className='lg:w-[50%] lg:ml-[330px]'>
         <DrawerHeader>
           <DrawerTitle>Finalizar Pedido</DrawerTitle>
           <DrawerDescription>
